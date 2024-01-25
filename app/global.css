@@ -1,0 +1,44 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+@font-face {
+    font-family: 'NeoSansPro-Regular';
+    src: url('/fonts/NeoSansPro-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NeoSansPro-Bold';
+    src: url('/fonts/NeoSansPro-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'NeoSansPro-Regular';
+}
+
+.containerHeader {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container1 {
+    width: 90%;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+.container2 {
+    width: 85%;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+.container3 {
+    width: 80%;
+    margin: 0 auto;
+}
